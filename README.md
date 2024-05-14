@@ -47,16 +47,22 @@ Node.js: A JavaScript runtime used for server-side scripting.
 DevOps:
 
 Git: Version control system used for tracking changes in source code during software development.
+
 GitHub: Platform for hosting and collaborating on Git repositories.
+
 Docker: Containerization platform used for packaging and deploying applications.
+
 Kubernetes: Container orchestration platform used for automating deployment, scaling, and management of containerized applications.
+
 Continuous Integration/Continuous Deployment (CI/CD) Tools: Examples include Jenkins, Travis CI, CircleCI, etc.
+
 Testing Frameworks: Such as Jest for JavaScript testing or Pytest for Python testing.
 
 Machine Design:
 
 Algorithms: Data structures and algorithms such as sorting algorithms, searching algorithms, etc.
 Design Patterns: Reusable solutions to common problems in software design, such as Singleton, Observer, Factory, etc.
+
 Object-Oriented Programming (OOP) Principles: Encapsulation, inheritance, polymorphism, etc.
 Programming Languages: JavaScript, Python, etc.
 
