@@ -183,9 +183,7 @@ recoil-learning-journey/
 
 If you'd like to contribute to this repository by adding examples, fixing bugs, or improving documentation, feel free to open a pull request. Your contributions are welcome!
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+ 
 
 ## Contact
 
