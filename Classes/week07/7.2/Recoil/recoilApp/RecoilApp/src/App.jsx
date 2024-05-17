@@ -6,10 +6,11 @@ import {
   useRecoilState,
   useRecoilValue,
 } from 'recoil';
+import './App.css'
 
 function App() {
   return (
-    <RecoilRoot>
+    <RecoilRoot >
       <CharacterCounter />
     </RecoilRoot>
   );

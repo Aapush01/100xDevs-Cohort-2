@@ -80,7 +80,7 @@ Programming Languages: JavaScript, Python, etc.
 
 ## Contact
 
-- If you have any questions or want to connect, you can reach me at [email](mdshahidafridia31@email.com).
+- If you have any questions or want to connect, you can reach me at [email](mailto:mdshahidafridia31@email.com).
 - You can also find me on [LinkedIn](https://www.linkedin.com/in/md-shahidafridi/).
 
 Happy coding!
