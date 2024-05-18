@@ -25,14 +25,14 @@ function MainApp(){
     <>
        <div className="container">
        <button>Home</button>
-       <button>My Networks({networkCount})</button>
+       <button>My Networks({networkCount >= 100 ? "99+" : networkCount})</button>
        <button>Jobs({jobsCount})</button>
        <button>Messaging({messagingCount})</button>
        <button>Notification({notificationCount})</button>
        <button>Me</button>
        </div>
         <div className="about">
-          <p>Here I will talk about Atom and selectors in Recoil</p>
+          <p>Here I will learn about Atom and selectors in Recoil</p>
         </div>
     </>
   )
