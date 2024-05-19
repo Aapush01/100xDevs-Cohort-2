@@ -23,7 +23,7 @@ function MainApp(){
 
     const totalNotificationCount = useMemo(() => {
       return notificationCount + messagingCount + jobsCount + networkCount
-    }, notificationCount , messagingCount , jobsCount , networkCount)  
+    }, [notificationCount , messagingCount , jobsCount , networkCount])  
      
    
 
