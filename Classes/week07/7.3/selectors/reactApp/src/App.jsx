@@ -1,12 +1,43 @@
  
+import { RecoilRoot, useRecoilValue } from 'recoil'
 import './App.css'
+import { jobsAtom, messagingAtom, networkAtom, notificationkAtom } from './atomsInRecoil'
 
 function App() {
-  
+  //  const notificationCount = useRecoilValue(notificationkAtom)
+  return <RecoilRoot>
+    <MainApp/>
+  </RecoilRoot>
+   
 
-  return (
+}
+
+function MainApp(){
+    const notificationCount = useRecoilValue(notificationkAtom);
+    const messagingCount = useRecoilValue(messagingAtom);
+    const jobsCount = useRecoilValue(jobsAtom);
+    const networkCount = useRecoilValue(networkAtom);
+
+    //one way of doing this.
+
+    const totalNotificationCount = notificationCount + messagingCount + jobsCount + networkCount
+     
+   
+
+   return (
+    
     <>
-      <h1>Bismillah</h1>
+       <div className="container">
+       <button>Home</button>
+       <button>My Networks({networkCount >= 100 ? "99+" : networkCount})</button>
+       <button>Jobs({jobsCount})</button>
+       <button>Messaging({messagingCount})</button>
+       <button>Notification({notificationCount})</button>
+       <button>Me({totalNotificationCount})</button>
+       </div>
+        <div className="about">
+          <p>Here I will learn about Atom and selectors in Recoil</p>
+        </div>
     </>
   )
 }
