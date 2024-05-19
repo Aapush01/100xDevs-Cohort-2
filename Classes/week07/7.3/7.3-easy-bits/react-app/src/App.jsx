@@ -1,9 +1,9 @@
 
 import './App.css'
-import { RecoilRoot, useRecoilState, useRecoilValue, useSetRecoilState } from 'recoil'
-import { notifications, totalNotificationSelector } from './atoms'
-import { useEffect } from 'react'
-import axios from 'axios'
+import { RecoilRoot, useRecoilValue, useSetRecoilState } from 'recoil'
+import { jobsAtom, messagingAtom, networkAtom, notificationsAtom, totalNotificationSelector } from './atoms'
+import { useMemo } from 'react'
+//RecoilRoot
 
 function App() {
   return <RecoilRoot>
@@ -12,25 +12,24 @@ function App() {
 }
 
 function MainApp() {
-  const [networkCount, setNetworkCount] = useRecoilState(notifications)
+  const networkNotificationCount = useRecoilValue(networkAtom)
+  const jobsAtomCount = useRecoilValue(jobsAtom);
+  const notificationsAtomCount = useRecoilValue(notificationsAtom)
+  const messagingAtomCount = useRecoilValue(messagingAtom)
   const totalNotificationCount = useRecoilValue(totalNotificationSelector);
 
-  useEffect(() => {
-    // fetch
-    axios.get("https://sum-server.100xdevs.com/notifications")
-      .then(res => {
-        setNetworkCount(res.data)
-      })
-  }, [])
+  // const totalNotificationCount = useMemo(() => {
+  //   return networkNotificationCount + jobsAtomCount + notificationsAtomCount + messagingAtomCount;
+  // }, [networkNotificationCount, jobsAtomCount, notificationsAtomCount, messagingAtomCount]) 
 
   return (
     <>
       <button>Home</button>
       
-      <button>My network ({networkCount.networks >= 100 ? "99+" : networkCount.networks})</button>
-      <button>Jobs {networkCount.jobs}</button>
-      <button>Messaging ({networkCount.messaging})</button>
-      <button>Notifications ({networkCount.notifications})</button>
+      <button>My network ({networkNotificationCount >= 100 ? "99+" : networkNotificationCount})</button>
+      <button>Jobs {jobsAtomCount}</button>
+      <button>Messaging ({messagingAtomCount})</button>
+      <button>Notifications ({notificationsAtomCount})</button>
 
       <button>Me ({totalNotificationCount})</button>
     </>
@@ -38,4 +37,3 @@ function MainApp() {
 }
 
 export default App
-
