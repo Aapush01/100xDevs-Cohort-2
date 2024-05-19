@@ -2,6 +2,7 @@
 import { RecoilRoot, useRecoilValue } from 'recoil'
 import './App.css'
 import { jobsAtom, messagingAtom, networkAtom, notificationkAtom } from './atomsInRecoil'
+import { useMemo } from 'react';
 
 function App() {
   //  const notificationCount = useRecoilValue(notificationkAtom)
@@ -20,7 +21,9 @@ function MainApp(){
 
     //one way of doing this.
 
-    const totalNotificationCount = notificationCount + messagingCount + jobsCount + networkCount
+    const totalNotificationCount = useMemo(() => {
+      return notificationCount + messagingCount + jobsCount + networkCount
+    }, notificationCount , messagingCount , jobsCount , networkCount)  
      
    
 
