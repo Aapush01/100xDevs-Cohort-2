@@ -1,4 +1,4 @@
- # 100xDevs-Cohort-2 Portfolio
+ # Shahid Portfolio
 
 ![Portfolio Preview](path-to-your-preview-image)
 
