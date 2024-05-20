@@ -76,10 +76,9 @@
         font-size: 50px;
     }
     .services-container {
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
+        grid-template-columns: 1fr;
         gap: 20px;
-        padding: 32px;
+        /* padding: 32px; */
     }
     .service-provide h1 {
         font-size: 28px;
