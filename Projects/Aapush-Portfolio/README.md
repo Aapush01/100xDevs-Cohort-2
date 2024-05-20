@@ -1,6 +1,6 @@
  # Shahid Portfolio
 
-![Portfolio Preview](path-to-your-preview-image)
+![Portfolio Preview](C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshot (434).png)
 
 Welcome to my portfolio project for the 100xDevs Cohort 2! This project showcases my skills and projects as a frontend engineer using React.js.
 
