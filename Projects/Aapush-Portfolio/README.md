@@ -10,7 +10,6 @@ Welcome to my portfolio project for the 100xDevs Cohort 2! This project showcase
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Introduction
