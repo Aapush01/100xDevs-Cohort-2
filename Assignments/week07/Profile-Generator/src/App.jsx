@@ -1,12 +1,15 @@
- import React from 'react'
+// src/App.js
+import React from 'react';
+import './App.css';
+import Card from './components/Card/Card';
  
- const App = () => {
-   return (
-     <div>
-      Bismillah: Let's start working on Profile-Generator Project.
-      
+
+function App() {
+  return (
+    <div className="App">
+      <Card/>
     </div>
-   )
- }
- 
- export default App
+  );
+}
+
+export default App;
