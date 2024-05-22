@@ -2,7 +2,16 @@
  
  const App = () => {
    return (
-     <div>App</div>
+     <>
+     {/* here try to write a code using a raw CSS and then try to write same code using tailwind. */}
+      {/* here I write inline css  */}
+     <div style={{display: "flex", justifyContent: "space-around" , fontSize: "30px" }} >
+     <div style={{backgroundColor: "pink"}}>MD</div>
+     <div style={{backgroundColor: "red"}}>Shahid</div>
+     <div style={{backgroundColor: "yellow"}}>Afridi</div>
+
+     </div> 
+     </>
    )
  }
  
