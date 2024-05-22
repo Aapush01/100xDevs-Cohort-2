@@ -18,6 +18,13 @@
      <div className='bg-slate-50' >Afridi</div>
 
      </div>
+     
+     <div className='grid grid-cols-10'>
+     <div className='bg-white col-span-4' >MD</div>
+     <div className='bg-zinc-800 text-white col-span-4' >Shahid</div>
+     <div className='bg-slate-50 col-span-2' >Afridi</div>
+
+     </div>
      </>
    )
  }
