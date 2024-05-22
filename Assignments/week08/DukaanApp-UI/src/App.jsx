@@ -2,7 +2,11 @@
  
  const App = () => {
    return (
-     <div>App</div>
+     <div> 
+      <h1>lets try to build DukaanApp UI</h1>
+
+
+     </div>
    )
  }
  
