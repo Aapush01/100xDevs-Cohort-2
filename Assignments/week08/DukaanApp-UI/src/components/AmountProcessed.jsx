@@ -1,6 +1,6 @@
 import React from "react";
 
-export const RevenueCard = ({ title, orderCount, amount }) => {
+export const AmountProcessed = ({ title, amount }) => {
   return (
     <div className="bg-white rounded shadow-md p-4 ">
       <div className="flex text-gray-700 gap-1">
@@ -23,7 +23,7 @@ export const RevenueCard = ({ title, orderCount, amount }) => {
         </div>
       </div>
       <div className="flex gap-8">
-        <div className="flex justify-between items-center ">
+        <div className="flex justify-between items-center">
           {" "}
           <div>
             <svg
@@ -43,7 +43,7 @@ export const RevenueCard = ({ title, orderCount, amount }) => {
           </div>
           <div className="text-2xl font-semibold">{amount}</div>
         </div>
-        <div className="flex text-blue-500 ">
+        {/* <div className="flex text-blue-500 ">
           <div className="underline">{orderCount} orders</div>
           <div>
             <svg
@@ -61,7 +61,7 @@ export const RevenueCard = ({ title, orderCount, amount }) => {
               />
             </svg>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
