@@ -1,24 +1,32 @@
-import React from 'react'
-import { RevenueCard } from './components/RevenueCard'
- 
- 
- 
- const App = () => {
-   return (
-     <div> 
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
-      <RevenueCard title={"Next payout"} amount={"2,312.23"} orderCount={23}  />
-      <RevenueCard title={"Amount pending"} amount={"93,312.20"} orderCount={13}  />
-      <RevenueCard title={"Amount processed"} amount={"93,312.20"}  />
-       
+import Fotter from "./components/Fotter"
+import Overview from "./components/Overview"
+import Sidebar from "./components/Sidebar"
+import Table from "./components/Table"
+import Topbar from "./components/Topbar"
+import Transactions from "./components/Transactions"
 
+
+function App() {
+
+  return (
+    <div className="bg-white-50">
+      <Sidebar />
+
+      <div className="border-b border-black-150 sm:pl-64 bg-white-500">
+        <Topbar />
       </div>
-    
-       
+      
+      <div className=" m-5 mb-0 sm:ml-64 grid gap-8">
+        <Overview />
+        <div className="grid gap-6">
+          <Transactions />
+          <Table />
+        </div>
+        <Fotter/>
+      </div>
 
+    </div>
+  )
+}
 
-     </div>
-   )
- }
- 
- export default App
+export default App
