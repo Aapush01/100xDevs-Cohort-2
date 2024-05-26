@@ -90,7 +90,7 @@
 .contact-submit:hover{
     transform: scale(1.1);
     transition: 0.3s;   
-    border: 3px solid yellow;
+   
 }
 .contact-detail{
     display: flex;

@@ -1,8 +1,10 @@
 import React from "react";
 import "./Footer.css";
+ 
 
-const Footer = () => {
-   
+ 
+
+const Footer = () => { 
   return (
     <div className="footer">
       <div className="footer-top">
@@ -34,6 +36,7 @@ const Footer = () => {
           <p>Privacy Policy</p>
           <p>Connect with me</p>
         </div>
+        
       </div>
     </div>
   );
