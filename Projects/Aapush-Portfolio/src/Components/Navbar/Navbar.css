@@ -26,8 +26,9 @@
     transition: 0.5s;
 }
 .nav-connect:hover{
-    transform: scale(1.05);
-    border: 2px solid yellow;
+     
+    background: linear-gradient(267deg, #dd9653 0.36%, #492753 102.06%);
+  
 }
 .home:hover{
     transform: scale(1.5);
@@ -65,6 +66,16 @@
 }
 .nav-mob-open{
     display: none;
+}
+.nav-menu li {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+.nav-menu li img {
+    display: flex;
+    margin: auto;
 }
 
 @media(max-width: 768px) {

@@ -8,7 +8,7 @@ const Contact = () => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "Its_Secret");
+    formData.append("access_key", "7585b00a-6e55-4bd7-b462-efb233e4e91f");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -70,7 +70,7 @@ const Contact = () => {
             rows="8"
             placeholder="Enter your message"
           ></textarea>
-          <button type="submit" className="contact-submit">
+          <button type="submit" className="contact-submit" >
             Submit now{" "}
           </button>
         </form>

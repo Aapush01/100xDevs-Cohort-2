@@ -2,9 +2,11 @@ import React, { useRef, useState } from "react";
 import "./Navbar.css";
 import menu_open from "../../assets/menu_open.svg";
 import menu_close from "../../assets/menu_close.svg";
+import underline from "../../assets/nav_underline.svg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Navbar = () => {
+  const [menu, setMenu] = useState("home");
   const menuRef = useRef();
 
   const openMenu = () => {
@@ -28,27 +30,27 @@ const Navbar = () => {
 
         <li className="home">
           <AnchorLink className="anchor-link" href="#navbar">
-            <p>Home</p>
+            <p onClick={() => setMenu("home")} >Home</p>{menu==="home"? <img src={underline} alt="" /> : <></>}
           </AnchorLink>
         </li>
         <li className="about-me">
           <AnchorLink className="anchor-link" offset={50} href="#about">
-            <p>About me</p>
+            <p onClick={() => setMenu("about")} >About me</p>{menu==="about"? <img src={underline} alt="" /> : <></>}
           </AnchorLink>
         </li>
         <li className="services">
           <AnchorLink className="anchor-link" offset={50} href="#services">
-            <p>Services</p>
+            <p onClick={() => setMenu("services")} >Services</p>{menu==="services"? <img src={underline} alt="" /> : <></>}
           </AnchorLink>
         </li>
         <li className="portfolio">
           <AnchorLink className="anchor-link" offset={50} href="#navbar">
-            <p>Portfolio</p>
+            <p onClick={() => setMenu("portfolio")} >Portfolio</p>{menu==="portfolio"? <img src={underline} alt="" /> : <></>}
           </AnchorLink>
         </li>
         <li className="contact">
           <AnchorLink className="anchor-link" offset={50} href="#contact">
-            <p>Contact</p>
+            <p onClick={() => setMenu("contact")} >Contact</p>{menu==="contact"? <img src={underline} alt="" /> : <></>}
           </AnchorLink>
         </li>
       </ul>

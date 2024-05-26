@@ -45,11 +45,7 @@
     transition: 0.3s;
 
 }
-.footer-subscribe:hover{
-    transform: scale(1.1);
-    transition: 0.3s;
-    border: 2px solid pink;
-}
+ 
 .footer-bottom{
     display: flex;
     justify-content: space-between;
@@ -62,4 +58,9 @@
 }
 .footer-email-input:hover{
     border: 2px solid white;
+}
+.footer-subscribe:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    
 }
