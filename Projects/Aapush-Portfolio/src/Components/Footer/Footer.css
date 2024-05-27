@@ -60,6 +60,26 @@
   transition: 0.3s;
   background: linear-gradient(267deg, #dd9653 0.36%, #492753 102.06%);
 }
+.circle-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;  
+}
+.scroll-top {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  
+}
+.scroll-top:hover {
+  background-color: rgb(45, 45, 30);
+  cursor: pointer;
+}
 @media (max-width: 768px) {
   .footer {
     margin: 50px 70px;
