@@ -39,11 +39,11 @@ const Footer = () => {
         <p className="footer-bottom-left">
           {" "}
           ©2024 MD. Shahid Afridi All rights reserved.{" "}
-        </p>
+        </p> 
         <div className="footer-bottom-right">
-          <div>Twitter</div>
-          <div>LinkedIn</div>
-          <div>Github</div>
+          <div><a href="https://x.com/Aapush2" target="_blank" >Twitter </a> </div>
+          <div><a href="https://www.linkedin.com/in/md-shahidafridi/" target="_blank" >LinkedIn </a> </div>
+          <div><a href="https://github.com/Aapush01" target="_blank" >Github</a> </div>
            
         </div>
       </div>
