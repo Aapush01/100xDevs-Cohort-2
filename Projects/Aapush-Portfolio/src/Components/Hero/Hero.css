@@ -50,6 +50,7 @@
 .hero-connect:hover{
     transform: scale(1.05);
     border: 2px solid white;
+    background: linear-gradient(267deg, #dd9653 0.36%, #492753 102.06%);
 }
 
 .hero-resume{

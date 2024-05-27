@@ -62,12 +62,33 @@
 .footer-subscribe:hover{
     transform: scale(1.1);
     transition: 0.3s;
+    background: linear-gradient(267deg, #dd9653 0.36%, #492753 102.06%);
     
 }
 @media(max-width:768px) {
+    .footer {
+        margin: 50px 70px;
+    }
+    .footer-top {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .footer-top-right {
+        display: flex;
+        flex-direction: column;
+    }
+.footer-email-input {
+    width: 80%;
+    font-size: 20px;
+}
+.footer-subscribe {
+    padding: 15px 30px;
     
-    .footer-top-right{
-        
+}
+    .footer-bottom {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
     }
 }
  

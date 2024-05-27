@@ -1,7 +1,10 @@
 import React from "react";
 import "./Footer.css";
+ 
+ 
 
  
+
 const Footer = () => { 
   return (
     <div className="footer">
@@ -15,7 +18,7 @@ const Footer = () => {
         </div>
         <div  className="footer-top-right">
           <div className="footer-email-input">
-            <img src="" alt="" />
+            <img src= "" alt="" />
             
             <input type="email" placeholder="Enter your email"  />
             
