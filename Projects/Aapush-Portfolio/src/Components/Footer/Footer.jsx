@@ -1,11 +1,7 @@
 import React from "react";
 import "./Footer.css";
- 
- 
 
- 
-
-const Footer = () => { 
+const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-top">
@@ -16,14 +12,13 @@ const Footer = () => {
             developer from India.
           </p>
         </div>
-        <div  className="footer-top-right">
+        <div className="footer-top-right">
           <div className="footer-email-input">
-            <img src= "" alt="" />
-            
-            <input type="email" placeholder="Enter your email"  />
-            
+            <img src="" alt="" />
+
+            <input type="email" placeholder="Enter your email" />
           </div>
-          <div  className="footer-subscribe"   >Subscribe</div>
+          <div className="footer-subscribe">Subscribe</div>
         </div>
       </div>
       <hr />
@@ -37,7 +32,6 @@ const Footer = () => {
           <p>Privacy Policy</p>
           <p>Connect with me</p>
         </div>
-        
       </div>
     </div>
   );
