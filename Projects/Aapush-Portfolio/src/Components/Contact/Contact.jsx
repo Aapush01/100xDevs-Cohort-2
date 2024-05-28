@@ -49,7 +49,7 @@ const Contact = () => {
           <div className="contact-details">
             <div className="contact-detail">
               <img src={mail_icon} alt="" />
-              <p>aapushansari@gmail.com</p>
+              <p>mdshahidafridi.lnjpit@gmail.com</p>
             </div>
             <div className="contact-detail">
               <img src={call_icon} alt="" />
