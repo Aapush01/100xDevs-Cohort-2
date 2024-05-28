@@ -72,8 +72,9 @@
 
 @media (max-width: 768px) {
   .hero img {
-    margin-top: 65px;
-    width: 260px;
+    margin-top: 15px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
   }
   .hero h1 {
@@ -100,5 +101,10 @@
   .hero-resume:hover {
     padding: 20px 50px;
     border-radius: 40px;
+  }
+  .hero img:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+     
   }
 }
