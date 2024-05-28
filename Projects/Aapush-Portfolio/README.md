@@ -44,7 +44,7 @@ To run this project locally, follow these steps:
     npm start
     ```
 
-The portfolio should now be running on [http://localhost:3000](http://localhost:3000).
+The portfolio should now be running on [Portfolio](https://my-portfolio-three-sigma-82.vercel.app/).
 
 ## Usage
 
