@@ -53,6 +53,10 @@
   gap: 50px;
   margin-bottom: 50px;
 }
+.footer-bottom-right svg:hover {
+  transform: scale(1.5);
+  transition: 0.3s;
+}
 .footer-email-input:hover {
   border: 2px solid white;
 }
