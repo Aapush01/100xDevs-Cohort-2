@@ -30,12 +30,11 @@ const About = () => {
             </p>
             <p>
               {" "}
-              Passionate about frontend development, I bring ideas to life with
-              code and creativity. Fueled by innovation, I craft seamless user
-              experiences that captivate and inspire. With a blend of technical
-              skill and artistic flair, I strive to push the boundaries of web
-              design. Join me in shaping the digital landscape, one pixel at a
-              time.{" "}
+              I'm passionate about frontend development and love bringing ideas
+              to life with code and creativity. I focus on crafting smooth and
+              engaging user experiences. With my technical skills and artistic
+              touch, I aim to push the limits of web design. Join me in shaping
+              the digital world, one pixel at a time.{" "}
             </p>
           </div>
           <div className="about-skills">
