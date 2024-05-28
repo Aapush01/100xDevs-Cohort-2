@@ -20,16 +20,13 @@ const About = () => {
           <div className="about-para">
             <p>
               {" "}
-              Meet MD. Shahid Afridi, a passionate and creative individual with
-              a flair for frontend development. Armed with a deep curiosity for
-              emerging technologies and a relentless drive to craft seamless
-              user experiences, MD. Shahid Afridi is on a mission to bring
-              innovation to the digital realm. With a foundation in frontend
-              development and a keen eye for design, MD. Shahid Afridi is poised
-              to make waves in the ever-evolving world of web development. Join
-              MD. Shahid Afridi on this journey as they combine technical
-              expertise with boundless creativity to shape the digital
-              landscapes of tomorrow.{" "}
+              Hi, I'm MD. Shahid Afridi, a passionate frontend developer who
+              loves creating smooth and engaging user experiences. I'm always
+              curious about the latest technologies and driven to innovate. With
+              a strong foundation in frontend development and a keen eye for
+              design, I'm ready to make my mark in the world of web development.
+              Join me on this exciting journey as I combine my technical skills
+              and creativity to shape the digital landscape of tomorrow.{" "}
             </p>
             <p>
               {" "}
