@@ -52,7 +52,7 @@ const About = () => {
             </div>
             <div className="about-skill">
               {" "}
-              <p> JavaScript </p> <hr style={{ width: "70%" }} />
+              <p> JavaScript </p> <hr style={{ width: "90%" }} />
             </div>
             <div className="about-skill">
               {" "}
@@ -60,15 +60,23 @@ const About = () => {
             </div>
             <div className="about-skill">
               {" "}
-              <p> React.js</p> <hr style={{ width: "65%" }} />
+              <p>MongoDB</p> <hr style={{ width: "65%" }} />
             </div>
             <div className="about-skill">
               {" "}
-              <p> Node.js</p> <hr style={{ width: "60%" }} />
+              <p> Express.js</p> <hr style={{ width: "65%" }} />
             </div>
             <div className="about-skill">
               {" "}
-              <p> Next.js</p> <hr style={{ width: "60%" }} />
+              <p> React.js</p> <hr style={{ width: "80%" }} />
+            </div>
+            <div className="about-skill">
+              {" "}
+              <p> Node.js</p> <hr style={{ width: "70%" }} />
+            </div>
+            <div className="about-skill">
+              {" "}
+              <p> Next.js</p> <hr style={{ width: "55%" }} />
             </div>
             <div className="about-skill">
               {" "}

@@ -5,7 +5,8 @@
   gap: 30px;
 }
 .footer-top {
-  display: flex;
+  /* display: flex; */
+  display: none;
   justify-content: space-between;
 }
 .footer-top-left p {
