@@ -49,7 +49,12 @@
    display: flex;
    flex-direction: column;
    gap: 20px;
+    
 
+ }
+ .about-skills h1{
+  align-items: center;
+  font-size: 60px;
  }
  .about-skill{
    display: flex;
@@ -104,6 +109,7 @@
    transform: scale(1.12);
    transition: 0.5s;
  }
+
  @media(max-width: 768px){
   .about{
     gap: 80px;

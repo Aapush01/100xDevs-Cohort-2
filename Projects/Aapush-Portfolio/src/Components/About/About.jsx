@@ -37,7 +37,7 @@ const About = () => {
               the digital world, one pixel at a time.{" "}
             </p>
           </div>
-          <div id="skills" className="about-skills">
+          <div id="skills" className="about-skills"> <h1>Skills</h1>
             <div className="about-skill">
               {" "}
               <p>HTML & CSS</p> <hr style={{ width: "85%" }} />
