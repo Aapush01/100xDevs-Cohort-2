@@ -3,9 +3,7 @@ import "./Contact.css";
 import mail_icon from "../../assets/mail_icon.svg";
 import call_icon from "../../assets/call_icon.svg";
 import location_icon from "../../assets/location_icon.svg";
- 
- 
- 
+
 const Contact = () => {
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -53,7 +51,7 @@ const Contact = () => {
             </div>
             <div className="contact-detail">
               <img src={call_icon} alt="" />
-               
+
               <p>+91-87895802XX</p>
             </div>
             <div className="contact-detail">
@@ -64,16 +62,26 @@ const Contact = () => {
         </div>
         <form onSubmit={onSubmit} className="contact-right">
           <label htmlFor="">Your Name</label>
-          <input type="text" placeholder="Enter your name" name="name" required />
+          <input
+            type="text"
+            placeholder="Enter your name"
+            name="name"
+            required
+          />
           <label htmlFor="">Your Email</label>
-          <input type="email" placeholder="Type your email" name="email" required />
+          <input
+            type="email"
+            placeholder="Type your email"
+            name="email"
+            required
+          />
           <label htmlFor="">Write your message here</label>
           <textarea
             name="message"
             rows="8"
             placeholder="Enter your message"
           ></textarea>
-          <button type="submit" className="contact-submit" >
+          <button type="submit" className="contact-submit">
             Submit now{" "}
           </button>
         </form>
