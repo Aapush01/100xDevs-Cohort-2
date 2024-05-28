@@ -40,7 +40,7 @@
   transition: 0.3s;
   cursor: pointer;
 }
-.portfolio:hover {
+.skills:hover {
   transform: scale(1.5);
   transition: 0.3s;
   cursor: pointer;

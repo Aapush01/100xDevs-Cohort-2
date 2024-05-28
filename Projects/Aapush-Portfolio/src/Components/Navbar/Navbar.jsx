@@ -43,9 +43,9 @@ const Navbar = () => {
             <p onClick={() => setMenu("services")} >Services</p>{menu==="services"? <img src={underline} alt="" /> : <></>}
           </AnchorLink>
         </li>
-        <li className="portfolio">
-          <AnchorLink className="anchor-link" offset={50} href="#navbar">
-            <p onClick={() => setMenu("portfolio")} >Portfolio</p>{menu==="portfolio"? <img src={underline} alt="" /> : <></>}
+        <li className="skills">
+          <AnchorLink className="anchor-link" offset={50} href="#skills">
+            <p onClick={() => setMenu("skills")} >Skills</p>{menu==="skills"? <img src={underline} alt="" /> : <></>}
           </AnchorLink>
         </li>
         <li className="contact">
