@@ -82,7 +82,8 @@
   
 }
 .scroll-top:hover {
-  background-color: rgb(45, 45, 30);
+  transform: scale(1.5);
+  transition: 0.3s;
   cursor: pointer;
 }
 .footer-bottom-right a {
