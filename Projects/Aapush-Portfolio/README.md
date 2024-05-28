@@ -1,6 +1,6 @@
  # Shahid Portfolio
 
-Welcome to my portfolio project for the 100xDevs Cohort 2! This project showcases my skills and projects as a frontend engineer using React.js.
+Welcome to my [portfolio](https://my-portfolio-three-sigma-82.vercel.app/) project for the 100xDevs Cohort 2! This project showcases my skills and projects as a frontend engineer using React.js.
 
 ## Table of Contents
 
