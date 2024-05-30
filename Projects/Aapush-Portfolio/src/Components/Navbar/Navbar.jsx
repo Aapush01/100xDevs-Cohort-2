@@ -28,27 +28,27 @@ const Navbar = () => {
           alt=""
         />
 
-        <li className="home">
+        <li  onClick={closeMenu} className="home">
           <AnchorLink className="anchor-link" href="#navbar">
             <p onClick={() => setMenu("home")} >Home</p>{menu==="home"? <img src={underline} alt="" /> : <></>}
           </AnchorLink>
         </li>
-        <li className="about-me">
+        <li  onClick={closeMenu} className="about-me">
           <AnchorLink className="anchor-link" offset={50} href="#about">
             <p onClick={() => setMenu("about")} >About me</p>{menu==="about"? <img src={underline} alt="" /> : <></>}
           </AnchorLink>
         </li>
-        <li className="skills">
+        <li  onClick={closeMenu} className="skills">
           <AnchorLink className="anchor-link" offset={50} href="#skills">
             <p onClick={() => setMenu("skills")} >Skills</p>{menu==="skills"? <img src={underline} alt="" /> : <></>}
           </AnchorLink>
         </li>
-        <li className="services">
+        <li  onClick={closeMenu} className="services">
           <AnchorLink className="anchor-link" offset={50} href="#services">
             <p onClick={() => setMenu("services")} >Services</p>{menu==="services"? <img src={underline} alt="" /> : <></>}
           </AnchorLink>
         </li>
-        <li className="contact">
+        <li  onClick={closeMenu} className="contact">
           <AnchorLink className="anchor-link" offset={50} href="#contact">
             <p onClick={() => setMenu("contact")} >Contact</p>{menu==="contact"? <img src={underline} alt="" /> : <></>}
           </AnchorLink>
