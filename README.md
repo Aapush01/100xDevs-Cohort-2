@@ -81,7 +81,8 @@ Programming Languages: JavaScript, Python, etc.
 
 ## Contact
 
-- If you have any questions or want to connect, you can reach me at [email](mailto:mdshahidafridia31@email.com).
-- You can also find me on [LinkedIn](https://www.linkedin.com/in/md-shahidafridi/).
+- If you have any questions or want to connect, you can reach me at [email](mailto:mdshahidafridia31@email.com)
+- You can also find me on [LinkedIn](https://www.linkedin.com/in/md-shahidafridi/)
+- [X](https://x.com/Aapush2)
 
 Happy coding!
