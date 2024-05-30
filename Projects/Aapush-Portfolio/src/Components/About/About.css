@@ -137,6 +137,7 @@
   }
  
   .about-skill {
+    display: list-item;
     gap: 20px;
     align-items: center;
   }
