@@ -73,7 +73,7 @@
     }
     .services-title h1 {
         padding: 0;
-        font-size: 50px;
+        font-size: 40px;
     }
     .services-container {
         grid-template-columns: 1fr;

@@ -105,9 +105,9 @@
     /* align-items: start; */
   }
   .contact-title h1 {
-    padding: 0px 30px;
-    font-size: 43px;
-    font-weight: 900;
+    padding: 0px;
+    font-size: 40px;
+    font-weight: 600;
 
  
   }
@@ -142,6 +142,6 @@
     padding: 15px 40px;
   }
   .footer-bottom-left {
-    font-size: 15px;
+    font-size: 12px;
   }
 }
