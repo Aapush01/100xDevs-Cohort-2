@@ -74,8 +74,9 @@ Contributions are welcome! If you have any ideas or suggestions to improve this 
 
 Feel free to reach out to me for any inquiries or collaborations:
 
-- [#GitHub](https://github.com/Aapush01)
 - [email](mailto:mdshahidafridi.lnjpit@gmail.com)
+- [X](https://x.com/Aapush2)
+- [LinkedIn](https://www.linkedin.com/in/md-shahidafridi/)
 
 ---
 
