@@ -102,18 +102,20 @@
   .contacts {
     gap: 50px;
     margin: 50px 70px;
-    align-items: start;
+    /* align-items: start; */
   }
-  .contact-title {
-    padding: 0;
-    font-size: 50px;
-    font-weight: 600;
+  .contact-title h1 {
+    padding: 0px 30px;
+    font-size: 43px;
+    font-weight: 900;
+
+ 
   }
   .contact-sections {
     flex-direction: column;
   }
   .contact-left h1 {
-    font-size: 54px;
+    font-size: 40px;
   }
   .contact-left p {
     font-size: 18px;
@@ -138,5 +140,8 @@
   .contact-submit {
     font-size: 20px;
     padding: 15px 40px;
+  }
+  .footer-bottom-left {
+    font-size: 15px;
   }
 }
