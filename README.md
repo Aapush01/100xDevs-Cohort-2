@@ -1,7 +1,6 @@
 # 100xDevs-Cohort-2 Learning Repository
 
 Welcome to my learning repository for the 100xDevs Cohort 2 course! In this repository, you'll find all the code and projects I've worked on during the course.
-- [Portfolio](https://aapush01.vercel.app/)
 
 ## Table of Contents
 
@@ -84,5 +83,6 @@ Programming Languages: JavaScript, Python, etc.
 - If you have any questions or want to connect, you can reach me at [email](mailto:mdshahidafridia31@email.com)
 - You can also find me on [LinkedIn](https://www.linkedin.com/in/md-shahidafridi/)
 - [X](https://x.com/Aapush2)
+- [Portfolio](https://aapush01.vercel.app/)
 
 Happy coding!
