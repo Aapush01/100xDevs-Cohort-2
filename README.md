@@ -1,7 +1,7 @@
 # 100xDevs-Cohort-2 Learning Repository
 
 Welcome to my learning repository for the 100xDevs Cohort 2 course! In this repository, you'll find all the code and projects I've worked on during the course.
-- [Portfolio](https://my-portfolio-three-sigma-82.vercel.app/)
+- [Portfolio](https://aapush01.vercel.app/)
 
 ## Table of Contents
 
