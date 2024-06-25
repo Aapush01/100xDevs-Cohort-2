@@ -44,7 +44,7 @@ To run this project locally, follow these steps:
     npm start
     ```
 
-The portfolio should now be running on [Portfolio](https://my-portfolio-three-sigma-82.vercel.app/).
+The portfolio should now be running on [Portfolio](https://aapush01.vercel.app/).
 
 ## Usage
 
@@ -77,6 +77,7 @@ Feel free to reach out to me for any inquiries or collaborations:
 - [email](mailto:mdshahidafridi.lnjpit@gmail.com)
 - [X](https://x.com/Aapush2)
 - [LinkedIn](https://www.linkedin.com/in/md-shahidafridi/)
+- [Portfolio](https://aapush01.vercel.app/)
 
 ---
 
