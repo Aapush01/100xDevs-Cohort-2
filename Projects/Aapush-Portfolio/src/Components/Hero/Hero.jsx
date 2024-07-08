@@ -1,4 +1,6 @@
 import React, { useEffect, useRef } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Typed from 'typed.js';
 import './Hero.css';
 import profile_photo from '../../assets/profile_photo.jpg';
@@ -6,6 +8,13 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Hero = () => {
   const typedElement = useRef(null);
+
+  useEffect(() => {
+    AOS.init({
+      offset: 300,
+      duration:1400,
+    });
+  }, []);
 
   useEffect(() => {
     const options = {
@@ -24,13 +33,13 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="hero">
-      <img className="img" src={profile_photo} alt="" />
-      <h1 className="multiple-text">
+    <div className="hero"  data-aos="zoom-in">
+      <img className="img" src={profile_photo}   data-aos="zoom-in-up" alt="" />
+      <h1 className="multiple-text" data-aos="slide-right">
         <span>I'm MD. Shahid Afridi, </span>
         <span ref={typedElement}></span>
       </h1>
-      <p>
+      <p data-aos="slide-left">
         Passionate to work in the field of software development and work on
         real-time projects. Keen on exploring challenging problems and possible
         ways to solve them.

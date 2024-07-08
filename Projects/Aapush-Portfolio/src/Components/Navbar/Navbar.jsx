@@ -1,4 +1,6 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import "./Navbar.css";
 import menu_open from "../../assets/menu_open.svg";
 import menu_close from "../../assets/menu_close.svg";
@@ -6,8 +8,15 @@ import underline from "../../assets/nav_underline.svg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Navbar = () => {
+  useEffect(() => {
+    AOS.init({
+      offset: 300,
+      duration:1400,
+    });
+  }, []);
   const [menu, setMenu] = useState("home");
   const menuRef = useRef();
+ 
 
   const openMenu = () => {
     menuRef.current.style.right = "0";
@@ -15,8 +24,9 @@ const Navbar = () => {
   const closeMenu = () => {
     menuRef.current.style.right = "-350px";
   };
+  
   return (
-    <div id="navbar" className="navbar">
+    <div id="navbar" className="navbar" data-aos="fade-down">
      
       <img src={menu_open} className="nav-mob-open" onClick={openMenu} alt="" />
 
