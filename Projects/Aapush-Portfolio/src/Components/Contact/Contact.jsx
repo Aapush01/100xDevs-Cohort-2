@@ -1,10 +1,18 @@
-import React from "react";
+import React, {useEffect} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import "./Contact.css";
 import mail_icon from "../../assets/mail_icon.svg";
 import call_icon from "../../assets/call_icon.svg";
 import location_icon from "../../assets/location_icon.svg";
 
 const Contact = () => {
+  useEffect(() => {
+    AOS.init({
+      offset: 300,
+      duration:1400,
+    });
+  }, []);
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -30,13 +38,13 @@ const Contact = () => {
 
   return (
     <div id="contact" className="contacts">
-      <div className="contact-title">
-        <h1>Get in touch</h1>
+      <div className="contact-title" data-aos="zoom-in-down">
+        <h1 data-aos="flip-left">Get in touch</h1>
       </div>
-      <div className="contact-sections">
-        <div className="contact-left">
-          <h1>Let's talk</h1>
-          <p>
+      <div className="contact-sections" data-aos="zoom-in-down">
+        <div className="contact-left" data-aos="slide-right">
+          <h1 data-aos="fade-right">Let's talk</h1>
+          <p data-aos="flip-down">
             I'm passionate about building beautiful and user-friendly websites
             that leave a lasting impact. Whether you're a potential client
             looking to bring your vision to life or a forward-thinking company
@@ -45,18 +53,18 @@ const Contact = () => {
             success!
           </p>
           <div className="contact-details">
-            <div className="contact-detail">
+            <div className="contact-detail" data-aos="fade-right">
               <img src={mail_icon} alt="" />
-              <p>mdshahidafridi.lnjpit@gmail.com</p>
+              <p  >mdshahidafridi.lnjpit@gmail.com</p>
             </div>
-            <div className="contact-detail">
+            <div className="contact-detail" data-aos="fade-left">
               <img src={call_icon} alt="" />
 
-              <p>+91-87895802XX</p>
+              <p >+91-87895802XX</p>
             </div>
-            <div className="contact-detail">
+            <div className="contact-detail" data-aos="fade-right">
               <img src={location_icon} alt="" />
-              <p>Bihar, India</p>
+              <p >Bihar, India</p>
             </div>
           </div>
         </div>

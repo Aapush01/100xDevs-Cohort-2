@@ -1,17 +1,25 @@
-import React from "react";
+import React, {useEffect} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import "./Services.css";
 import service_img from "../../assets/service_img.jpg";
 
 const Services = () => {
+  useEffect(() => {
+    AOS.init({
+      offset: 300,
+      duration:1400,
+    });
+  }, []);
   return (
     <div id="services" className="service">
-      <div className="services-title">
-        <h1>My Services</h1>
+      <div className="services-title" data-aos="zoom-in-down">
+        <h1 data-aos="flip-right">My Services</h1>
         {/* theme patter img */}
         <img className="service-img" src={service_img} alt="" />
       </div>
-      <div className="services-container">
-        <div className="service-provide">
+      <div className="services-container" data-aos="zoom-in-up">
+        <div className="service-provide" data-aos="zoom-in-up">
           <h3>01</h3>
           <h1>Website Development</h1>
           <p>
@@ -20,7 +28,7 @@ const Services = () => {
             JavaScript.
           </p>
         </div>
-        <div className="service-provide">
+        <div className="service-provide" data-aos="zoom-in-up">
           <h3>02</h3>
           <h1>Web Application Development</h1>
           <p>
@@ -28,7 +36,7 @@ const Services = () => {
             across various devices and browsers.
           </p>
         </div>
-        <div className="service-provide">
+        <div className="service-provide" data-aos="zoom-in-up">
           <h3>03</h3>
           <h1>UI/UX Design</h1>
           <p>
@@ -37,7 +45,7 @@ const Services = () => {
             through layout, colors, typography, and navigation.
           </p>
         </div>
-        <div className="service-provide">
+        <div className="service-provide" data-aos="zoom-in-up">
           <h3>04</h3>
           <h1>Responsive Design</h1>
           <p>
@@ -45,7 +53,7 @@ const Services = () => {
             screen sizes and devices, enhancing accessibility and usability.
           </p>
         </div>
-        <div className="service-provide">
+        <div className="service-provide" data-aos="zoom-in-up">
           <h3>05</h3>
           <h1>Cross-Browser Compatibility</h1>
           <p>
@@ -54,7 +62,7 @@ const Services = () => {
             browsers.
           </p>
         </div>
-        <div className="service-provide">
+        <div className="service-provide" data-aos="zoom-in-up">
           <h3>06</h3>
           <h1>Performance Optimization</h1>
           <p>
@@ -64,7 +72,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="service-provide">
+        <div className="service-provide" data-aos="zoom-in-up">
           <h3>07</h3>
           <h1>Accessibility Compliance</h1>
           <p>
@@ -73,7 +81,7 @@ const Services = () => {
             making them usable by people with disabilities.
           </p>
         </div>
-        <div className="service-provide">
+        <div className="service-provide" data-aos="zoom-in-up">
           <h3>08</h3>
           <h1>Frontend Framework Implementation</h1>
           <p>
@@ -82,7 +90,7 @@ const Services = () => {
             streamline development and enhance functionality.
           </p>
         </div>
-        <div className="service-provide">
+        <div className="service-provide" data-aos="zoom-in-up">
           <h3>09</h3>
           <h1>Integration with Backend Systems </h1>
           <p>
