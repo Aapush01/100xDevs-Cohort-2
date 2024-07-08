@@ -11,7 +11,7 @@ const Hero = () => {
     const options = {
       strings: ['frontend developer', 'backend developer', 'full-stack developer'],
       typeSpeed: 50,
-      backSpeed: 25,
+      backSpeed: 50,
       backDelay:900,
       loop: true,
     };
