@@ -6,7 +6,16 @@
 
 body{
   height: 100vh;
-  background-color: #161513;
+  background-color: #000000;
   color: white;
   font-family: outfit;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #45ffca;
+  width: 50px;
 }

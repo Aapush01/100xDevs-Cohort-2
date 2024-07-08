@@ -18,7 +18,7 @@ const About = () => {
       <div className="about-title" data-aos="zoom-in-down" >
         <h1 data-aos="flip-left">About me</h1>
         {/* theme img add */}
-        <img className="theme_img" src={theme_img}  data-aos="fade-up" alt="" />
+        <img className="theme_img" src={theme_img}  data-aos="zoom-in-up" alt="" />
       </div>
       <div className="about-sections" data-aos="zoom-in-down">
         <div className="about-left" data-aos="flip-right">
@@ -27,7 +27,7 @@ const About = () => {
         </div>
         <div className="about-right" >
           <div className="about-para">
-            <p data-aos="zoom-in">
+            <p data-aos="zoom-in-down" >
               {" "}
               Hi, I'm MD. Shahid Afridi, a passionate frontend developer who
               loves creating smooth and engaging user experiences. I'm always
@@ -37,7 +37,7 @@ const About = () => {
               Join me on this exciting journey as I combine my technical skills
               and creativity to shape the digital landscape of tomorrow.{" "}
             </p>
-            <p data-aos="zoom-in">
+            <p data-aos="zoom-in-down">
               {" "}
               I'm passionate about frontend development and love bringing ideas
               to life with code and creativity. I focus on crafting smooth and
