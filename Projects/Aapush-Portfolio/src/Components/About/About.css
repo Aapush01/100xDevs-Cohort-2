@@ -114,11 +114,22 @@
   html {
     font-size: 55%;
   }
+  .about-sections {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 991px) {
   html {
     font-size: 55%;
+  }
+  .about-sections {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-achievement p {
+       font-size: 15px;
   }
 }
 

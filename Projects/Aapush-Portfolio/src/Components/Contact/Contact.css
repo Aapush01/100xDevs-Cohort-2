@@ -98,6 +98,27 @@
   font-weight: 700;
 }
 
+@mediia (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 991px) {
+  .contact-title h1 {
+    font-size: 70px;
+  }
+  .contact-sections {
+    display: flex;
+    flex-direction: column;
+  }
+   
+  .contact-left {
+   display: flex;
+   flex-direction: column;
+  }
+}
+
 @media (max-width: 768px) {
   .contacts {
     gap: 50px;
@@ -112,8 +133,14 @@
  
   }
   .contact-sections {
+    display: flex;
     flex-direction: column;
   }
+  .contact-left {
+   display: flex;
+   flex-direction: column;
+  }
+
   .contact-left h1 {
     font-size: 40px;
   }
