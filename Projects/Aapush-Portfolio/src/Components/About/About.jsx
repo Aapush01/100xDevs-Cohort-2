@@ -15,8 +15,8 @@ const About = () => {
 
   return (
     <div id="about" className="about" >
-      <div className="about-title" data-aos="zoom-in-down" >
-        <h1 data-aos="flip-left">About me</h1>
+      <div className="about-title" >
+        <h1 data-aos="zoom-in-down">About me</h1>
         {/* theme img add */}
         <img className="theme_img" src={theme_img}  data-aos="zoom-in-up" alt="" />
       </div>

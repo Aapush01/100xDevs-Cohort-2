@@ -41,9 +41,12 @@ const Contact = () => {
       <div className="contact-title" data-aos="zoom-in-down">
         <h1 data-aos="flip-left">Get in touch</h1>
       </div>
-      <div className="contact-sections" data-aos="zoom-in-down">
-        <div className="contact-left" data-aos="slide-right">
-          <h1 data-aos="fade-right">Let's talk</h1>
+      <div className="contact-sections">
+        <div className="contact-left" data-aos="fade-right">
+          <div> 
+          <h1 data-aos="zoom-in-down">Let's talk</h1>
+           </div>
+           <div>
           <p data-aos="flip-down">
             I'm passionate about building beautiful and user-friendly websites
             that leave a lasting impact. Whether you're a potential client
@@ -52,6 +55,7 @@ const Contact = () => {
             turn ideas into reality. Reach out, and let's embark on a journey to
             success!
           </p>
+          </div>
           <div className="contact-details">
             <div className="contact-detail" data-aos="fade-right">
               <img src={mail_icon} alt="" />
