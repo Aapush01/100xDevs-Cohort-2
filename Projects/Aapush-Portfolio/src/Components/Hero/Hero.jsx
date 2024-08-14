@@ -37,7 +37,8 @@ const Hero = () => {
       <img className="img" src={profile_photo}   data-aos="zoom-in-down" alt="" />
       <h1 className="multiple-text" data-aos="fade-left">
         <span>I'm MD. Shahid Afridi, </span>
-        <span ref={typedElement}></span>
+        <br/>
+        <span className="typedJs" ref={typedElement}></span>
       </h1>
       <p data-aos="fade-right">
         Passionate to work in the field of software development and work on
